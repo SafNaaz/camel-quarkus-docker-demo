@@ -16,3 +16,10 @@ docker run -p 8080:8080 camel-quarkus-demo
 
 hit localhost:8080/hello
 
+without docker
+
+mvnw quarkus:dev
+
+then hit same localhost
+
+http://localhost:8080/q/dev-ui/extensions
